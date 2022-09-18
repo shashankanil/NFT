@@ -6,7 +6,7 @@ import { MdVerified } from 'react-icons/md'
 import TopNavbarLayout from '../../layouts/TopNavbarLayout'
 import CollectionStats from './CollectionStats'
 import { collectionData } from '../../static/collections'
-// import Listings from './Listings'
+import Listings from './Listings'
 
 const style = {
   wrapper: `flex flex-col dark:bg-[#202226] relative flex flex-col`,
@@ -18,9 +18,9 @@ const style = {
   collectionLogoContainer: `flex items-center justify-center rounded-full border-4 border-gray-100`,
   collectionLogo: `rounded-full object-cover`,
   collectionInfo: `flex flex-col items-center space-y-6`,
-  title: `text-4xl font-bold`,
+  title: `text-4xl font-bold text-white`,
   creatorInfoContainer: `flex items-center space-x-1`,
-  creator: `text-sm font-medium text-gray-500`,
+  creator: `text-sm font-medium text-gray-500 text-white` ,
   creatorName: `cursor-pointer text-blue-500`,
   verified: `h-5 w-5 text-blue-500`,
   descriptionContainer: `max-w-3xl py-2 px-10 text-center text-gray-500`,
@@ -94,9 +94,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <Listings /> */}
+           <Listings /> 
         </div>
-      </TopNavbarLayout>
+        </TopNavbarLayout>
     </div>
   )
 }
