@@ -30,7 +30,7 @@ const NFTSalesInfo = ({price, buyNFT}) => {
         <AiOutlineClockCircle className ={`${style.greyText} ${style.headerIcon}`}/>
 
         <div className ={style.greyText}>
-          Sales ends June 1, 2022 at 8:20pm GMT-7
+          Sales ends October 1, 2022 at 00:00 AM GMT-7
         </div>
     </div>
         

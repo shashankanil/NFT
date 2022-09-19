@@ -76,7 +76,7 @@ export default function Home() {
 
                   <div className={style.creatorInfoContainer}>
                     <div className={style.creator}>
-                      Created by{' '}
+                      Created by ChaSh{' '}
                       <span className={style.creatorName}>
                         {collection?.creator}
                       </span>

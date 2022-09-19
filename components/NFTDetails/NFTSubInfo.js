@@ -12,10 +12,10 @@ const NFTSubInfo = () => {
   return(
     <div className={style.wrapper}>
       <div className={style.textInfoContainer}>
-        Owned by <span className={style.owner}>ABC</span>
+        Owned by <span className={style.owner}>ChaSh</span>
       </div>
       <div className={style.iconTextInfoContainer}>
-        <AiFillEye className={style.icon}/>
+        <AiFillEye className={style.icon}/> 
         <div className={style.textInfoContainer}>4.4K view</div>
       </div>
       <div className={style.iconTextInfoContainer}>

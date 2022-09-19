@@ -10,11 +10,11 @@ const style = {
 const NFTDetails = () => {
   const dropdownData = [
     {
-      title: 'Description',
+      title: 'Descriptions',
       icon: <GrTextAlignLeft className ={style.icon} />
     },
     {
-      title: 'Properties',
+      title: 'Propertiess',
       icon: <BsFillBookmarkFill  className={style.icon}/>
     },
   ]
